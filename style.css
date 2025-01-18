@@ -13,3 +13,8 @@ body{
 .titulo-negrilla{
     color: #22d4fd;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
