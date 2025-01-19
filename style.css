@@ -42,10 +42,10 @@ body{
 
 .presentacion__enlaces{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    gap: 32px;
+    flex-direction: column;
     align-items: center;
+    gap: 32px;
 }
 
 .presentacion__enlaces__subtitulo{
@@ -56,16 +56,18 @@ body{
 
 .presentacion__enlaces__botones{
     width: 378px;
-    background-color:#000;
-    border:2px solid #22d4fd;
     text-align: center;
-    color: #f6f6f6;
-    text-decoration: none;
-    padding: 21.5px 0;
     border-radius: 8px;
-    font-family: "Montserrat", serif;
-    font-weight: 600;
     font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "Montserrat", serif;
+    border:2px solid #22d4fd;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .presentacion__foto{
