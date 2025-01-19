@@ -55,14 +55,14 @@ body{
 }
 
 .presentacion__enlaces__botones{
-    width: 280px;
+    width: 378px;
     background-color:#000;
     border:2px solid #22d4fd;
     text-align: center;
     color: #f6f6f6;
     text-decoration: none;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-family: "Montserrat", serif;
     font-weight: 600;
     font-size: 24px;
