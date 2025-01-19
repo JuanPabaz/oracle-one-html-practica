@@ -70,6 +70,10 @@ body{
     gap: 10px;
 }
 
+.presentacion__enlaces__botones:hover{
+    background-color: #272727;
+}
+
 .presentacion__foto{
     height: 615px;
     border-radius: 16px;
