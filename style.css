@@ -44,20 +44,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 32px;
     align-items: center;
 }
 
 .presentacion__enlaces__subtitulo{
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Krona One",sans-serif;
+    font-weight: normal;
 }
 
 .presentacion__enlaces__botones{
     width: 280px;
-    background-color: #22d4fd;
+    background-color:#000;
+    border:2px solid #22d4fd;
     text-align: center;
-    color: #000;
+    color: #f6f6f6;
     text-decoration: none;
     padding: 21.5px 0;
     border-radius: 16px;
