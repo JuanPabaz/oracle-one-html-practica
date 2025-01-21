@@ -60,7 +60,7 @@ body{
 }
 
 .titulo-negrilla{
-    color: var(--color-terciario);
+    color: var(--color-secundario);
 }
 .presentacion__contenido__parrafo{
     font-size: 1.5rem;
@@ -91,7 +91,7 @@ body{
     text-decoration: none;
     color: var(--color-secundario);
     font-family: var(--fuente-montserrat);
-    border:2px solid var(--color-terciario);
+    border:2px solid var(--color-secundario);
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -104,12 +104,12 @@ body{
 .presentacion__foto{
     width: 50%;
     border-radius: 16px;
-    border: 2px solid var(--color-terciario);
+    border: 2px solid var(--color-secundario);
     border-color: #000;
 }
 
 .footer{
-    background-color: var(--color-terciario);
+    background-color: var(--color-secundario);
     padding: 24px;
     color: var(--color-primario);
     text-align: center;
