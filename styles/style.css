@@ -108,6 +108,27 @@ body{
     border-color: #000;
 }
 
+.presentacion__tecnologias{
+    padding: 10% 22%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.presentacion__tecnologias__titles{
+    font-size: 2.25rem;
+    font-family: var(--fuente-krona);
+}
+
+.presentacion__tecnologias__imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.tecnologia__imagenes{
+    width: 20%;
+}
+
 .footer{
     background-color: var(--color-secundario);
     padding: 24px;
