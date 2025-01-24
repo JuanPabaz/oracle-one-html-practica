@@ -70,7 +70,7 @@ body{
 .presentacion__contenido__subtitulo__redes{
     display: flex;
     justify-content: center;
-    padding: 4% 0 4% 0;
+    padding: 6% 0 6% 0;
 }
 
 .presentacion__enlaces__subtitulo{
@@ -89,7 +89,7 @@ body{
 .presentacion__enlaces__botones{
     width: 50%;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 16px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
