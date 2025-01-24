@@ -120,6 +120,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
 .presentacion__tecnologias__titles{
@@ -197,6 +198,13 @@ body{
 
     .presentacion__foto{
         width: 100%;
+    }
+
+    .presentacion__tecnologias{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
     }
 
     .header{
