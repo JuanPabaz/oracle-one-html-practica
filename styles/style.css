@@ -62,6 +62,7 @@ body{
 .titulo-negrilla{
     color: var(--color-secundario);
 }
+
 .presentacion__contenido__parrafo{
     font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
@@ -142,6 +143,37 @@ body{
     width: calc(100% / 5 - 20px); 
     max-width: 100%;
     height: auto;
+}
+
+.presentacion__experiencia__trabajo{
+    padding: 0 0 5% 0;
+}
+
+.presentacion__experiencia__trabajo__title{
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+    padding-bottom: 2%;
+}
+
+.presentacion__experiencia__trabajo__title{
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+}
+
+.presentacion__experiencia__trabajo__lista{
+    font-size: 1.25rem;
+    font-family: var(--fuente-montserrat);
+    list-style:square;
+    padding: 0 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.presentacion__experiencia__trabajo__subtitle{
+    font-size: 1.3rem;
+    font-family: var(--fuente-montserrat);
+    padding: 2% 0 2% 0;
 }
 
 .footer{
