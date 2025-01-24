@@ -209,9 +209,14 @@ body{
 
     .header{
         padding: 10% 10% 10% 10%;
+        width: auto;
     }
 
     .header__navbar{
         justify-content: center;
+    }
+
+    .footer{
+        width: auto;
     }
 }
