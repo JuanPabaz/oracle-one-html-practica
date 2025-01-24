@@ -67,12 +67,10 @@ body{
     font-family: var(--fuente-montserrat);
 }
 
-.presentacion__enlaces{
+.presentacion__contenido__subtitulo__redes{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
+    justify-content: center;
+    padding: 4% 0 4% 0;
 }
 
 .presentacion__enlaces__subtitulo{
@@ -80,6 +78,13 @@ body{
     font-family: var(--fuente-krona);
     font-weight: normal;
 }
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
 
 .presentacion__enlaces__botones{
     width: 50%;
