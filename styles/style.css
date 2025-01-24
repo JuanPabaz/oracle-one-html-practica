@@ -106,10 +106,11 @@ body{
     border-radius: 16px;
     border: 2px solid var(--color-secundario);
     border-color: #000;
+    height: 50%;
 }
 
 .presentacion__tecnologias{
-    padding: 10% 22%;
+    padding: 10% 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -118,15 +119,24 @@ body{
 .presentacion__tecnologias__titles{
     font-size: 2.25rem;
     font-family: var(--fuente-krona);
+    padding-bottom: 5%;
 }
 
-.presentacion__tecnologias__imagenes{
+.presentacion__tecnologias__imagenes {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
+    gap: 20px; 
+    max-width: 100%;
+    overflow: hidden; 
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
-.tecnologia__imagenes{
-    width: 20%;
+.tecnologia__imagenes {
+    width: calc(100% / 5 - 20px); 
+    max-width: 100%;
+    height: auto;
 }
 
 .footer{
